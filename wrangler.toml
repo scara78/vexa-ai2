@@ -1,0 +1,12 @@
+name = "vexa-ai2"
+main = "functions/index.js"
+compatibility_date = "2024-01-01"
+
+# Define routes to ensure 404.js catches unmatched paths
+[[routes]]
+pattern = "vexa-ai.pages.dev/*"
+zone_name = "vexa-ai.pages.dev"
+
+# For local development
+[env.development]
+name = "vexa-ai-dev"
